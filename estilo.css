@@ -1,0 +1,95 @@
+
+body{
+	margin:0;	
+	font-family:tahoma, arial;
+}
+
+h2{
+	margin:0;
+	font-size:20px;
+	color:#660000;	
+}
+
+p{
+	font-size:14px; /*padrao 16px*/	
+	color:#333;
+}
+
+.saibamais{
+	color:#660000;
+	font-size:14px;	
+}
+
+.saibamais:hover{
+	color:#000;	
+}
+
+#total{
+	width:960px;
+	height:auto;
+	margin:auto;	
+}
+
+#topo{
+	width:960px;
+	height:75px;
+	float:left;
+	/*background-color:#CCC;*/
+	margin-top:30px;
+	margin-bottom:30px;	
+}
+
+#logo{
+	width:267px;
+	height:75px;
+	float:left;
+}
+
+#menu{
+	width:auto;
+	height:auto;
+	float:right;
+	margin-top:27px;
+}
+
+#menu a{ /*links que estão dentro do id #menu*/
+	color:#660000;
+	text-decoration:none; /*retira o sublinhado*/
+	margin-left:50px;	
+}
+
+#menu a:hover{
+	text-decoration:underline;	
+}
+
+#banner{
+	width:960px;
+	height:300px;
+	float:left;
+	margin-bottom:30px;
+}
+
+#coluna1, #coluna2, #coluna3, #coluna4{
+	width:210px;
+	height:auto;
+	float:left;
+	/*background-color:#999;*/
+	margin-right:40px;	
+}
+
+#coluna4{
+	margin-right:0;	
+}
+
+#rodape{
+	width:960px;
+	height:auto;
+	float:left;
+	border-top:1px solid #CCC; /*borda superior: largura, estilo, cor*/
+	text-align:center;
+	color:#660000;
+	font-size:12px;
+	margin-top:30px;
+	padding-top:10px; /*espaçamento interno*/
+	padding-bottom:10px;
+}
